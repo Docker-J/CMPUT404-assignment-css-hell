@@ -1,0 +1,36 @@
+body {
+  background-color: beige;
+}
+
+#navbar {
+  margin: 20pt;
+}
+
+#navbar a {
+  margin: 5pt;
+}
+
+img {
+  display: inline-block;
+  height: 250pt;
+  width: 250pt;
+  object-fit: cover;
+  object-position: 60%;
+  border: 0.5pt solid #000000;
+  border-radius: 50%;
+}
+
+#flexbox {
+  display: flex;
+  margin-top: 120pt;
+  margin-left: 20pt;
+  margin-right: 20pt;
+}
+
+#texts {
+  margin-left: 20pt;
+}
+
+p {
+  font-family: sans-serif;
+}
