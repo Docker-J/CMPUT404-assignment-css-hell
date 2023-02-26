@@ -15,18 +15,18 @@
     </div>
 
     <div id="flexbox">
-      <div>
-        <img src="me.jpg" alt="A photo of Junesung Lee" />
-      </div>
-      <div id="texts">
-        <div id="whoami">
+      <div class="content" id="first">
+        <img id="me" src="me.jpg" alt="A photo of Junesung Lee" />
+        <div class="texts" id="whoami">
           <h1>Who Am I</h1>
           <p>
             Hello, my name is Junesung Lee. I am a 4th year Computing Science
             undergraduate in University of Alberta.
           </p>
         </div>
-        <div id="stack">
+      </div>
+      <div class="content" id="second">
+        <div class="texts" id="stack">
           <h1>Stack</h1>
           <p>React</p>
           <p>Javascript</p>
@@ -34,16 +34,25 @@
           <p>Android</p>
           <p>Python</p>
         </div>
-        <div id="experience">
+        <img
+          id="stack_img"
+          src="stack.jpg"
+          alt="A photo of some code on monitor"
+        />
+      </div>
+      <div class="content" id="third">
+        <img src="experience.jpg" alt="A photo of people work" />
+        <div class="texts" id="experience">
           <h1>Experience</h1>
           <p>
-            I have worked on a variety of projects in the past, including [List
-            some notable projects or achievements]. I am passionate about [Your
-            interests or causes you care about], and I believe in [Your
-            philosophy or mission statement].
+            I have worked on a variety of projects in the past. <br />Check on
+            my
+            <a href="https://github.com/Docker-J">github</a>
           </p>
         </div>
-        <div id="whatcanido">
+      </div>
+      <div class="content" id="false">
+        <div class="text" id="whatcanido">
           <h1>What Can I Offer</h1>
           <p>
             I bring strong communication skills, attention to detail, and
@@ -52,10 +61,10 @@
             pressure. With these qualities, I believe I would be a valuable
             addition to any team. If you have any questions or would like to
             learn more about me, feel free to reach out at
-            <a href="junesung@ualberta.ca">junesung@ualberta.ca</a> or connect
-            with me on [Your social media handles].
+            <a href="junesung@ualberta.ca">junesung@ualberta.ca</a>
           </p>
         </div>
+        <img id="passion_img" src="passion.jpg" alt="A photo of people work" />
       </div>
     </div>
   </body>
