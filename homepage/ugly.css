@@ -1,0 +1,68 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  background-image: url("me.jpg");
+  background-position-x: 60%;
+  background-position-y: 5%;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #e0980c;
+  width: 100%;
+  padding: 10pt;
+}
+
+#navbar a {
+  margin: 30pt;
+  font-size: 20pt;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+#flexbox {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  max-width: 1400px;
+  margin-top: 160pt;
+}
+
+.content {
+  width: 100%;
+  margin-left: 20pt;
+  margin-right: 20pt;
+  color: pink;
+  background-color: black;
+}
+
+img {
+  display: none;
+  height: 250pt;
+  width: 250pt;
+  object-fit: cover;
+  object-position: 60%;
+  border: 3pt solid black;
+  border-radius: 50%;
+  margin-right: auto;
+}
+
+#stack_img,
+#passion_img {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+#passion {
+  object-position: 20%;
+}
