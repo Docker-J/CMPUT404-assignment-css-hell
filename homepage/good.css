@@ -27,13 +27,24 @@ body {
   text-decoration: none;
 }
 
-#flexbox {
+#body {
   position: absolute;
+  display: flex;
+  flex-direction: row;
   left: 50%;
   transform: translateX(-50%);
-  width: 80%;
-  max-width: 1400px;
+  width: 90%;
+  max-width: 1600px;
   margin-top: 160pt;
+}
+
+#content_box {
+  flex-grow: 3;
+  margin-right: 50pt;
+}
+
+#sidebar {
+  flex-grow: 1;
 }
 
 .content {
